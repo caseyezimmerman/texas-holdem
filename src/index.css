@@ -3,3 +3,16 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.the-table{
+	background:  lightblue;
+	margin: 20px;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.card{
+	border-radius: 10px;
+	padding: 5px;
+	max-width: 100%;
+}
