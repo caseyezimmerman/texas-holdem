@@ -3,8 +3,13 @@ import Deck from '../utilityClasses/deck';
 import PokerHand from './PokerHand'
 import GameButtons from './GameButtons'
 import ThePot from './ThePot'
+import ReadPokerFile from '../utilityClasses/poker'
 
 var cards = new Deck();
+var file = new ReadPokerFile()
+file.console();
+
+// console.log(ReadPokerFile)
 // console.log(cards.deck);
 // cards.createDeck();
 // console.log(cards.deck);
